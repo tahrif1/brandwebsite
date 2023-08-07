@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="https://www.allstarcode.org">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>All Star Coder(?)</p>
+                <h1>Hi, I'm <span>Batman</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/person.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet sollicitudin arcu, ac mollis elit. Curabitur id ligula porttitor, elementum augue ac, tempus risus. Sed tincidunt quis massa non ullamcorper. Suspendisse volutpat turpis ipsum, eget placerat sem vulputate sit amet. Pellentesque ac arcu sit amet diam finibus consectetur quis non leo. Nulla vel sollicitudin nulla. Proin vitae viverra arcu, ut volutpat risus. Curabitur pulvinar sem vel dolor placerat, et tincidunt enim aliquet. Vivamus feugiat euismod magna, a auctor turpis dignissim hendrerit. Fusce ullamcorper enim dolor, id rhoncus nulla maximus sit amet. Ut porta venenatis erat. Etiam congue ipsum ut vestibulum auctor. Vivamus neque odio, tincidunt volutpat urna sit amet, maximus suscipit enim. Quisque ut elementum turpis. Aenean aliquet ipsum sed dui vestibulum, vel imperdiet quam hendrerit. Etiam semper tempor sem, in molestie felis scelerisque nec.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Computer Languages</span><br>Python<br>JavaScript(p5)<br>HTML/CSS</li>
+                            <li><span>Language Proficiency</span><br>English<br>Bengali<br>Hindi<br>Urdu<br>Arabic<br>Spanish</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>November 2022 - April 2023</span><br>Student Board of Directors Member at The Opportunity Network</li>
+                            <li><span>September 2022 - June 2023</span><br>Guidance Monitor at Francis Lewis High School</li>
+                            <li><span>January 2022 - March 2022</span><br>Student Intern at NYU Neurology Department</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>Francis Lewis High School</li>
+                            <li><span>2023</span><br>All Star Code</li>
+                            <li><span>2022</span><br>Queens College</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="sketch.js"></script>
+</body>
+</html>
